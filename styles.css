@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box; margin: 0;
+}
+body {
+    color: darkslategrey;
+}
+.card {
+    border: 10px solid #567890;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+#black-bear {
+    color: black
+}
+.card img {
+    width: 50rem;
+}
+.opacity-test {
+    background-color: rgba(10, 54, 171, .5);
+    text-align: center;
+    vertical-align: middle;
+    z-index: 1;
+}
+.background {
+background-image: url('assets/black-bear.jpg');
+}
+.layer {
+    background-color: darkviolet;
+    opacity: 80%;
+    height: 100%;
+}
